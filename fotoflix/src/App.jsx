@@ -15,11 +15,12 @@ function App() {
           <Link to ="/">Home</Link>
           <Link to = "/favourites">Favourites</Link>
         </div>
+        </nav>
         <Routes>
           <Route path="/" element={<Photos/>} />
           <Route path="/favourites" element ={<Favourites/>}/>
         </Routes>
-      </nav>
+      
     </div>
     </BrowserRouter>
   )

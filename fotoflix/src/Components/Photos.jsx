@@ -12,7 +12,7 @@ const Photos = () => {
       const clientId = '?client_id=GauZOwVdOyG_KtFNNaEEGcJWLh0Hi5DrIOdoKQ5-snM';
       const mainUrl = 'https://api.unsplash.com/photos/';
       try {
-        const response = await fetch(`${mainUrl}?clientId = ${clientId}`);
+        const response = await fetch(`${mainUrl}${clientId}`);
         const data = await response.json();
         setPhotos(data);
         
