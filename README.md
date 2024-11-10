@@ -1,2 +1,3 @@
 # fotoflix
-A frontend project for photos
+A half complete frontend project for photos
+will complete soon
