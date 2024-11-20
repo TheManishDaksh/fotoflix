@@ -1,3 +1,4 @@
-# fotoflix
-A half complete frontend project for photos
-will complete soon
+# fotoflix <br/>
+A half complete frontend project for photos <br/>
+will complete soon <br/>
+using api of unsplash only photos are extracted
